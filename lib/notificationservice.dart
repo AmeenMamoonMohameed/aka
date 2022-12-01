@@ -32,7 +32,7 @@ class NotificationService {
             android: initializationSettingsAndroid,
             iOS: initializationSettingsIOS);
 
-    // await flutterLocalNotificationsPlugin.initialize(initializationSettings);
+    await flutterLocalNotificationsPlugin.initialize(initializationSettings);
   }
 
   Future<void> showNotification(

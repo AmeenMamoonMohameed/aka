@@ -1,5 +1,5 @@
 import 'package:akarak/widgets/drawer/main_drawer.dart';
-import 'package:assets_audio_player/assets_audio_player.dart' as player;
+// import 'package:assets_audio_player/assets_audio_player.dart' as player;
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -282,12 +282,12 @@ class _AppContainerState extends State<AppContainer> {
                       AppBloc.userCubit.state?.id &&
                   element.lastMessage?.status != Status.seen)) {
                 if (initState.isAlerm) {
-                  player.AssetsAudioPlayer.newPlayer().stop();
-                  player.AssetsAudioPlayer.newPlayer().open(
-                    player.Audio("assets/sounds/notification.mp3"),
-                    autoStart: true,
-                    showNotification: false,
-                  );
+                  // player.AssetsAudioPlayer.newPlayer().stop();
+                  // player.AssetsAudioPlayer.newPlayer().open(
+                  //   player.Audio("assets/sounds/notification.mp3"),
+                  //   autoStart: true,
+                  //   showNotification: false,
+                  // );
                   NotificationService()
                       .showNotification(1, "title", "body", 10);
                 }
