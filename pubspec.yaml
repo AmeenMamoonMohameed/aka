@@ -72,7 +72,7 @@ dependencies:
   sliver_tools: 0.2.8
   super_editor: ^0.2.3
   flutter_sticky_header: 0.6.4
-  assets_audio_player: ^3.0.5 #// ios settings
+  # assets_audio_player: ^3.0.5 #// ios settings
   vibration: ^1.7.6 #// ios settings
   flutter_local_notifications: ^12.0.4 # ios settings
   timezone: ^0.9.0
