@@ -53,11 +53,12 @@
 	<array>
 		<string>fetch</string>
 		<string>remote-notification</string>
+		<string>audio</string>
 	</array>
-	<array>
+	<!-- <array>
 		<string>audio</string>
 		<string>fetch</string>
-	</array>
+	</array> -->
 	<key>com.apple.security.network.client</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
